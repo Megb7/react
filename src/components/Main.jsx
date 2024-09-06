@@ -1,12 +1,15 @@
-import React from 'react';
+import React from "react";
+import './Main.css';
+
+const TitleComponent = ({ title }) => {
+    return <h1>{title}</h1>;
+};
 
 const Main = () => {
     return (
-        <main>
-            <section>
-                <h2>Bienvenido a Mi Pagina Web</h2>
-                <p>Este es el contenido principal</p>
-            </section>
+        <main className="main">
+            <TitleComponent title="Bienvenidos a mi página" />
+            <p>Esta es la sección principal de la página.</p>
         </main>
     );
 };

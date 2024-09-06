@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <p>&copy; 2024 Mi Pagina Web. Todos los derechos reservados a Mario Ernesto Guala Barria</p>
+        <footer className="footer">
+            <div className="footer-logo">Mi Logo</div>
+            <div className="footer-links">
+                <a href="#about">Acerca de</a>
+                <a href="#privacy">Privacidad</a>
+            </div>
         </footer>
     );
 };

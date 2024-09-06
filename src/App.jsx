@@ -1,11 +1,10 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
-import './App.css'
+import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import './App.css';
 
-const App = () => {
+function App() {
     return (
         <div className="App">
             <Header />
@@ -13,6 +12,6 @@ const App = () => {
             <Footer />
         </div>
     );
-};
+}
 
 export default App;
